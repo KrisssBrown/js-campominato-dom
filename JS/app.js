@@ -47,33 +47,36 @@ function dimension() {
         console.log(cellaEl)
     }
 
-    const bombe = []
-    bombe.lenght = (colonne + righe) * 2
+
+    // // // // // // // // GENERAZIONE BOMBE
+
+    // const bombe = []
+    // bombe.lenght = (colonne + righe) * 2
 
 
 
-    let randomBoom = []
-    let bombIndex = bombe.includes(randomBoom[i])
-
-    
-
-    while(bombIndex = true){
-        randomBoom = Math.floor(Math.random() * numeroCelle)
-
-        bombe.push (randomBoom)
-        // console,log (randomBoom)
-    }
+    // let randomBoom = []
+    // let bombIndex = bombe.includes(randomBoom[i])
 
     
 
-
-    // for (let i = 0; i < numeroCelle/2; i++) { 
-    //     let randomBoom = Math.floor(Math.random() * numeroCelle)
+    // while(bombIndex = true){
+    //     randomBoom = Math.floor(Math.random() * numeroCelle)
 
     //     bombe.push (randomBoom)
+    //     // console,log (randomBoom)
     // }
 
-    console.log('numero Bombe', bombe.length)
+    
+
+
+    // // for (let i = 0; i < numeroCelle/2; i++) { 
+    // //     let randomBoom = Math.floor(Math.random() * numeroCelle)
+
+    // //     bombe.push (randomBoom)
+    // // }
+
+    // console.log('numero Bombe', bombe.length)
 
 }
 
